@@ -1,0 +1,23 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: DodgerBlue;
+  color: white;
+  margin: 0 20px;
+}
+.Nav > .Left {
+  display: flex;
+  flex-direction: row;
+}
+.Nav .P1 {
+  transform: rotate(90deg);
+  margin: 10px 10px 10px 20px;
+}
+.Nav p {
+  display: inline-block;
+  margin: 10px;
+}
+.Nav .Search {
+  margin: 10px 20px 10px 10px;
+}

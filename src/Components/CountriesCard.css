@@ -1,0 +1,34 @@
+.CountriesCard {
+  margin: 20px;
+  width: 97%;
+}
+.CountriesCard td,
+.CountriesCard th {
+  padding: 20px;
+}
+.CountriesCard tr {
+  -webkit-box-shadow: 0px 0px 50px 4px #efefef;
+  box-shadow: 0px 0px 50px 4px #efefef;
+  text-align: left;
+}
+.CountriesCard tr:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+#nothover:hover {
+  background-color: white;
+  cursor: auto;
+}
+:any-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+#more > p {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: xx-large;
+  width: fit-content;
+  margin: 0 47% 20px;
+}
